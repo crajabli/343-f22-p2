@@ -13,7 +13,7 @@ searchButton.addEventListener("click", () => {
 
 
 async function getDriverNames() {
-    const response= await fetch(`http://ergast.com/api/f1/2022/drivers.json`);
+    const response= await fetch(`https://ergast.com/api/f1/2022/drivers.json`);
     const driversJson = await response.json();
     console.log("drivers array");
     console.log(driversJson);   
